@@ -20,7 +20,7 @@ public class EmpregadoHorista extends Empregado{
         String aux = super.toString();
         aux += "Total de horas trabalhadas:" + totalDeHorasrabalhadas + "\n";
         aux += "Valor da hora trabalhada:R$" + dF.format(valorDaHoraTrabalhada);
-        aux += "Salario:R$" + dF.format(calcularSalario());
+        aux += "Salario:R$" + dF.format(calcularSalario()) + "\n";
         return aux;
     }
 }

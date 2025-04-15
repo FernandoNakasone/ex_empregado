@@ -21,7 +21,7 @@ public class EmpregadoComissionado extends Empregado{
         String aux = super.toString();
         aux += "Total de vendas:R$" + dF.format(totalDeVendas) + "\n";
         aux += "Comissão:" + dF.format(comissao) + "% \n";
-        aux += "Salario:R$" + dF.format(calcularSalario());
+        aux += "Salario:R$" + dF.format(calcularSalario()) + "\n";
         return aux;
     }
 }
